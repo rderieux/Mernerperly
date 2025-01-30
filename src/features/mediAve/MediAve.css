@@ -8,23 +8,27 @@
   width: 100%;
 }
 
-.medi-color {
-  background-color: #4b0082; /* Dark purple color */
-  height: 35%;
-  border-top: 4px solid black;
+.medi-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .medi-name {
   display: flex;
   align-self: start;
-  height: 60%;
-  margin-top: 7px;
 }
 
 .medi-price {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 25%;
   text-align: center;
+}
+
+.medi-color {
+  background-color: #4b0082; /* Dark purple color */
+  height: 40px;
+  border-top: 4px solid black;
 }

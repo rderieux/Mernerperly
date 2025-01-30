@@ -1,0 +1,22 @@
+.baltic {
+  font-size: 8px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.baltic-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.baltic-color {
+  background-color: #4b0082;
+  height: 40px;
+  border-top: 4px solid black;
+}
