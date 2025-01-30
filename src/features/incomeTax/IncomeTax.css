@@ -1,0 +1,23 @@
+.income-tax {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.income-tax-name {
+  margin: 0;
+  padding: 0;
+}
+
+.income-tax-description {
+  margin: 0;
+  padding: 0;
+}
+
+.income-tax-name,
+.income-tax-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

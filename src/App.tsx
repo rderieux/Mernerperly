@@ -3,6 +3,8 @@ import React from "react";
 import Start from "./features/start/Start";
 import MediAve from "./features/mediAve/MediAve";
 import ComChest from "./features/comChest/ComChest";
+import Baltic from "./features/baltic/Baltic";
+import IncomeTax from "./features/incomeTax/IncomeTax";
 import "./App.css";
 
 function App() {
@@ -18,8 +20,12 @@ function App() {
         <div className="cell top">
           <ComChest />
         </div>
-        <div className="cell top">3</div>
-        <div className="cell top">4</div>
+        <div className="cell top">
+          <Baltic />
+        </div>
+        <div className="cell top">
+          <IncomeTax />
+        </div>
         <div className="cell top">5</div>
         <div className="cell top">6</div>
         <div className="cell top">7</div>
