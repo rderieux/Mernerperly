@@ -8,6 +8,7 @@ import IncomeTax from "./features/incomeTax/IncomeTax";
 import "./App.css";
 import ReadingRail from "./features/readingRail/ReadingRail";
 import OrientalAve from "./features/oriental/OrientalAve";
+import Vermont from "./features/vermont/Vermont";
 
 function App() {
   return (
@@ -35,7 +36,9 @@ function App() {
           <OrientalAve />
         </div>
         <div className="cell top">7</div>
-        <div className="cell top">8</div>
+        <div className="cell top">
+          <Vermont />
+        </div>
         <div className="cell top">9</div>
         <div className="cell corner">JAIL</div>
         <div className="cell right">10</div>
