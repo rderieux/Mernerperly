@@ -3,30 +3,28 @@
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
-  border: 1px solid black;
 }
 
-.color {
+.medi-color {
   background-color: #4b0082; /* Dark purple color */
   height: 35%;
   border-top: 4px solid black;
 }
 
-.name {
+.medi-name {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  align-self: start;
   height: 60%;
-  text-align: center;
+  margin-top: 7px;
 }
 
-.price {
+.medi-price {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 20%;
+  height: 25%;
   text-align: center;
 }
