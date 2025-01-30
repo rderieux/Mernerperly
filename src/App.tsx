@@ -6,6 +6,7 @@ import ComChest from "./features/comChest/ComChest";
 import Baltic from "./features/baltic/Baltic";
 import IncomeTax from "./features/incomeTax/IncomeTax";
 import "./App.css";
+import ReadingRail from "./features/readingRail/ReadingRail";
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
         <div className="cell top">
           <IncomeTax />
         </div>
-        <div className="cell top">5</div>
+        <div className="cell top">
+          <ReadingRail />
+        </div>
         <div className="cell top">6</div>
         <div className="cell top">7</div>
         <div className="cell top">8</div>
