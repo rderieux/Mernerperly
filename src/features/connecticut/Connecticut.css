@@ -1,0 +1,22 @@
+.connecticut {
+  font-size: 8px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.connecticut-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.connecticut-color {
+  background-color: #f0f5fa;
+  height: 40px;
+  border-top: 4px solid black;
+}
