@@ -1,4 +1,4 @@
-import "./oriental.css";
+import "./OrientalAve.css";
 
 export default function OrientalAve() {
   return (

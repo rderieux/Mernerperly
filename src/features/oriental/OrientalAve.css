@@ -1,0 +1,22 @@
+.oriental {
+  font-size: 8px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.oriental-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.oriental-color {
+  background-color: #f0f5fa;
+  height: 40px;
+  border-top: 4px solid black;
+}
