@@ -1,6 +1,6 @@
 // filepath: /G:/Projects/Mernerperly/src/App.tsx
 import React from "react";
-import Start from "./features/Start";
+import Start from "./features/start/Start";
 import "./App.css";
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
         <div className="cell left">34</div>
         <div className="cell left">35</div>
         <div className="cell left">36</div>
-        <div className="cell center">Center</div>
+        <div className="cell center">CENTER</div>
       </div>
     </div>
   );
