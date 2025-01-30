@@ -1,6 +1,7 @@
 // filepath: /G:/Projects/Mernerperly/src/App.tsx
 import React from "react";
 import Start from "./features/start/Start";
+import MediAve from "./features/mediAve/MediAve";
 import "./App.css";
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
         <div className="cell corner">
           <Start />
         </div>
-        <div className="cell top">1</div>
+        <div className="cell top">
+          <MediAve />
+        </div>
         <div className="cell top">2</div>
         <div className="cell top">3</div>
         <div className="cell top">4</div>

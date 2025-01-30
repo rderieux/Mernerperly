@@ -1,0 +1,32 @@
+.medi {
+  font-size: 8px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.color {
+  background-color: #4b0082; /* Dark purple color */
+  height: 35%;
+  border-top: 4px solid black;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 60%;
+  text-align: center;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 20%;
+  text-align: center;
+}
