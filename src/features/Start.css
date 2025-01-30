@@ -1,0 +1,24 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  height: 100%;
+  width: 100%;
+}
+
+.start p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.go {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+}
