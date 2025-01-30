@@ -10,6 +10,7 @@ import ReadingRail from "./features/readingRail/ReadingRail";
 import OrientalAve from "./features/oriental/OrientalAve";
 import Vermont from "./features/vermont/Vermont";
 import Connecticut from "./features/connecticut/Connecticut";
+import Chance from "./features/chance/Chance";
 
 function App() {
   return (
@@ -36,7 +37,9 @@ function App() {
         <div className="cell top">
           <OrientalAve />
         </div>
-        <div className="cell top">7</div>
+        <div className="cell top">
+          <Chance />
+        </div>
         <div className="cell top">
           <Vermont />
         </div>

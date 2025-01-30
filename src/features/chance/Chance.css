@@ -1,0 +1,15 @@
+.chance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.qMark {
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #e14161;
+  margin: 0;
+}
