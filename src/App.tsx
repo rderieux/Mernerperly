@@ -49,7 +49,6 @@ function App() {
         <div className="cell left">34</div>
         <div className="cell left">35</div>
         <div className="cell left">36</div>
-        <div className="center">Center</div>
       </div>
     </div>
   );
