@@ -11,13 +11,13 @@
 .medi-info {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   height: 100%;
 }
 
 .medi-name {
   display: flex;
-  align-self: start;
 }
 
 .medi-price {
