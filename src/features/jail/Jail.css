@@ -15,6 +15,33 @@
   width: 100%;
 }
 
+.jail-section.in-jail {
+  background-color: #f39c12;
+  flex-direction: column;
+  position: relative;
+}
+
+.jail-rotate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+.jail-rotate p {
+  margin: 0;
+}
+
+.jailPic {
+  width: 30px;
+  height: 30px;
+  transform: scale(3);
+}
+
 .jail-sideways-text {
   display: flex;
   justify-content: flex-end;
