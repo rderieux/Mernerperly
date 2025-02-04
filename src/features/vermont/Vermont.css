@@ -1,4 +1,4 @@
-.medi {
+.vermont {
   font-size: 8px;
   font-weight: bold;
   display: flex;
@@ -8,27 +8,15 @@
   width: 100%;
 }
 
-.medi-info {
+.vermont-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   height: 100%;
 }
 
-.medi-name {
-  display: flex;
-}
-
-.medi-price {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  text-align: center;
-}
-
-.medi-color {
-  background-color: #4b0082; /* Dark purple color */
+.vermont-color {
+  background-color: #f0f5fa;
   height: 40px;
   border-top: 4px solid black;
 }

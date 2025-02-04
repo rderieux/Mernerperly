@@ -1,0 +1,75 @@
+.jail {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 3fr 1fr;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+}
+
+.jail-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.jail-section.in-jail {
+  background-color: #f39c12;
+  flex-direction: column;
+  position: relative;
+}
+
+.jail-rotate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+
+.jail-rotate p {
+  margin: 0;
+}
+
+.jailPic {
+  width: 30px;
+  height: 30px;
+  transform: scale(3);
+}
+
+.jail-sideways-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  writing-mode: vertical-rl;
+  text-align: right;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+  align-items: flex-start;
+}
+
+.jail-section.visit {
+  display: flex;
+  align-items: flex-start;
+}
+
+.jail > .jail-section:nth-child(1) {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.jail > .jail-section:nth-child(2) {
+  grid-area: 1 / 2 / 2 / 3;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.jail > .jail-section:nth-child(3) {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.jail > .jail-section:nth-child(4) {
+  grid-area: 2 / 2 / 3 / 3;
+}

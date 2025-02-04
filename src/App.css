@@ -1,12 +1,14 @@
 html,
 body {
-  margin: 0;
+  margin-top: 5px;
   padding: 0;
-  height: 100%;
+  height: 120vmin;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "News Cycle", serif;
+  font-style: normal;
 }
 
 .container {
@@ -21,8 +23,8 @@ body {
   display: grid;
   grid-template-columns: 2fr repeat(9, 1fr) 2fr;
   grid-template-rows: 2fr repeat(9, 1fr) 2fr;
-  width: 90vmin;
-  height: 90vmin;
+  width: 120vmin;
+  height: 120vmin;
   background-color: #e2ecf2;
   border-top: 4px solid black;
   border-left: 4px solid black;

@@ -7,6 +7,11 @@ import Baltic from "./features/baltic/Baltic";
 import IncomeTax from "./features/incomeTax/IncomeTax";
 import "./App.css";
 import ReadingRail from "./features/readingRail/ReadingRail";
+import OrientalAve from "./features/oriental/OrientalAve";
+import Vermont from "./features/vermont/Vermont";
+import Connecticut from "./features/connecticut/Connecticut";
+import Chance from "./features/chance/Chance";
+import Jail from "./features/jail/Jail";
 
 function App() {
   return (
@@ -30,11 +35,21 @@ function App() {
         <div className="cell top">
           <ReadingRail />
         </div>
-        <div className="cell top">6</div>
-        <div className="cell top">7</div>
-        <div className="cell top">8</div>
-        <div className="cell top">9</div>
-        <div className="cell corner">JAIL</div>
+        <div className="cell top">
+          <OrientalAve />
+        </div>
+        <div className="cell top">
+          <Chance />
+        </div>
+        <div className="cell top">
+          <Vermont />
+        </div>
+        <div className="cell top">
+          <Connecticut />
+        </div>
+        <div className="cell corner">
+          <Jail />
+        </div>
         <div className="cell right">10</div>
         <div className="cell right">11</div>
         <div className="cell right">12</div>
