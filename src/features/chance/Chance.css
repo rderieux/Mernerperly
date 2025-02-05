@@ -2,14 +2,27 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
 .qMark {
-  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 12px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: #e14161;
+  transform: translate(-50%, -50%) scale(10);
+  transform-origin: center;
+  line-height: 1;
+  position: absolute;
+  top: 60%;
+  left: 50%;
   margin: 0;
 }
