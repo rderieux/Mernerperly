@@ -12,6 +12,7 @@ import Vermont from "./features/vermont/Vermont";
 import Connecticut from "./features/connecticut/Connecticut";
 import Chance from "./features/chance/Chance";
 import Jail from "./features/jail/Jail";
+import StCharlesPlace from "./features/stCharlesPlace/StCharlesPlace";
 
 function App() {
   return (
@@ -50,7 +51,9 @@ function App() {
         <div className="cell corner">
           <Jail />
         </div>
-        <div className="cell right">10</div>
+        <div className="cell right">
+          <StCharlesPlace />
+        </div>
         <div className="cell right">11</div>
         <div className="cell right">12</div>
         <div className="cell right">13</div>
