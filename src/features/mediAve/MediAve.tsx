@@ -5,7 +5,7 @@ export default function MediAve() {
     <>
       <div className="medi">
         <div className="medi-info">
-          <p className="medi-name">MEDITERRANEAN AVE</p>
+          <p className="medi-name">RANEAN</p>
           <p className="medi-price">$60</p>
         </div>
         <div className="medi-color"></div>

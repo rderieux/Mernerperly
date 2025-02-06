@@ -1,5 +1,5 @@
 .medi {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -18,6 +18,18 @@
 
 .medi-name {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.medi-name::before {
+  display: block;
+  content: "MEDITER-";
+}
+
+.medi-name::after {
+  display: block;
+  content: "AVENUE";
 }
 
 .medi-price {

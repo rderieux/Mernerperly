@@ -1,13 +1,24 @@
 .rail {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  font-size: 12px;
   height: 100%;
-  font-size: 10px;
   font-weight: bold;
 }
 
 .rail-image {
   height: 35px;
   width: 50px;
+}
+
+.rail-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rail-name::after {
+  display: block;
+  content: "RAILROAD";
 }

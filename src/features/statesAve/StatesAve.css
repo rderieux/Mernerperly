@@ -1,0 +1,28 @@
+.stcharles {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.stcharles-color {
+  background-color: #e91e63;
+  height: 100%;
+  width: 36px;
+  border-right: black solid 4px;
+  flex-shrink: 0;
+}
+
+.stcharles-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: sideways-lr;
+  font-weight: bold;
+  font-size: 12px;
+  width: 100%;
+}
+
+.stcharles-name::after {
+  display: block;
+  content: "AVENUE";
+}
