@@ -1,9 +1,10 @@
 .connecticut {
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: 12px;
   height: 100%;
   width: 100%;
 }
@@ -19,4 +20,15 @@
   background-color: #f0f5fa;
   height: 40px;
   border-top: 4px solid black;
+}
+
+.connecticut-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.connecticut-name::after {
+  display: block;
+  content: "AVENUE";
 }
