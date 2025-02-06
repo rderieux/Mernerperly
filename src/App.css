@@ -11,6 +11,13 @@ body {
   font-style: normal;
 }
 
+[class*="name"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1;
+}
+
 .container {
   display: flex;
   justify-content: center;
