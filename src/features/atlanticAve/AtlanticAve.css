@@ -1,0 +1,28 @@
+.atlantic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.atlantic-color {
+  background-color: #fee101;
+  border-bottom: 4px solid black;
+  height: 36px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.atlantic-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.atlantic-name::after {
+  display: block;
+  content: "AVENUE";
+}
