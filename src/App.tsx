@@ -22,6 +22,7 @@ import KentuckyAve from "./features/kentuckyAve/KentuckyAve";
 import ComChestLR from "./features/comChestLR/ComChestLR";
 import ComChestRL from "./features/comChestRL/ComChestRL";
 import IndianaAve from "./features/indianaAve/IndianaAve";
+import IllinoisAve from "./assets/illinoisAve/IllinoisAve";
 
 function App() {
   return (
@@ -91,7 +92,9 @@ function App() {
         <div className="cell bottom">
           <IndianaAve />
         </div>
-        <div className="cell bottom">22</div>
+        <div className="cell bottom">
+          <IllinoisAve />
+        </div>
         <div className="cell bottom">23</div>
         <div className="cell bottom">24</div>
         <div className="cell bottom">25</div>
