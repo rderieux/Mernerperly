@@ -28,6 +28,7 @@ import VentnorAve from "./features/ventnorAve/VentnorAve";
 import MarvinGardens from "./features/marvinGardens/MarvinGardens";
 import PacificAve from "./features/pacificAve/PacificAve";
 import NorthCarolinaAve from "./features/northCarolinaAve/NorthCarolinaAve";
+import PennsAve from "./features/pennsAve/PennsAve";
 
 function App() {
   return (
@@ -121,7 +122,9 @@ function App() {
         <div className="cell left">
           <ComChestRL />
         </div>
-        <div className="cell left">31</div>
+        <div className="cell left">
+          <PennsAve />
+        </div>
         <div className="cell left">32</div>
         <div className="cell left">33</div>
         <div className="cell left">34</div>
