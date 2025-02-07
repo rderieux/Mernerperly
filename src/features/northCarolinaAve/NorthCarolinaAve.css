@@ -1,0 +1,31 @@
+.north-carolina {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  width: 100%;
+}
+
+.north-carolina-color {
+  background-color: #00ba4f;
+  border-left: 4px solid black;
+  width: 36px;
+  flex-shrink: 0;
+}
+
+.north-carolina-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  writing-mode: sideways-rl;
+}
+
+.north-carolina-name::before {
+  display: block;
+  content: "NORTH";
+}
+
+.north-carolina-name::after {
+  display: block;
+  content: "AVENUE";
+}
