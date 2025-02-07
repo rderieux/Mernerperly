@@ -9,6 +9,14 @@ body {
   align-items: center;
   font-family: "News Cycle", serif;
   font-style: normal;
+  font-weight: bold;
+}
+
+[class*="name"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1;
 }
 
 .container {
@@ -25,7 +33,7 @@ body {
   grid-template-rows: 2fr repeat(9, 1fr) 2fr;
   width: 120vmin;
   height: 120vmin;
-  background-color: #e2ecf2;
+  background-color: #cbe2d2;
   border-top: 4px solid black;
   border-left: 4px solid black;
 }

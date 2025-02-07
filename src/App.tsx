@@ -15,6 +15,14 @@ import Jail from "./features/jail/Jail";
 import StCharlesPlace from "./features/stCharlesPlace/StCharlesPlace";
 import StatesAve from "./features/statesAve/StatesAve";
 import VirginiaAve from "./features/virginiaAve/VirginiaAve";
+import StJamesPlace from "./features/stJamesPlace/StJamesPlace";
+import TennesseeAve from "./features/tennesseeAve/TennesseeAve";
+import NewYorkAve from "./features/newYorkAve/NewYorkAve";
+import KentuckyAve from "./features/kentuckyAve/KentuckyAve";
+import ComChestLR from "./features/comChestLR/ComChestLR";
+import ComChestRL from "./features/comChestRL/ComChestRL";
+import IndianaAve from "./features/indianaAve/IndianaAve";
+import IllinoisAve from "./assets/illinoisAve/IllinoisAve";
 
 function App() {
   return (
@@ -64,15 +72,29 @@ function App() {
           <VirginiaAve />
         </div>
         <div className="cell right">14</div>
-        <div className="cell right">15</div>
-        <div className="cell right">16</div>
-        <div className="cell right">17</div>
-        <div className="cell right">18</div>
+        <div className="cell right">
+          <StJamesPlace />
+        </div>
+        <div className="cell right">
+          <ComChestLR />
+        </div>
+        <div className="cell right">
+          <TennesseeAve />
+        </div>
+        <div className="cell right">
+          <NewYorkAve />
+        </div>
         <div className="cell corner">FREE PARKING</div>
-        <div className="cell bottom">19</div>
+        <div className="cell bottom">
+          <KentuckyAve />
+        </div>
         <div className="cell bottom">20</div>
-        <div className="cell bottom">21</div>
-        <div className="cell bottom">22</div>
+        <div className="cell bottom">
+          <IndianaAve />
+        </div>
+        <div className="cell bottom">
+          <IllinoisAve />
+        </div>
         <div className="cell bottom">23</div>
         <div className="cell bottom">24</div>
         <div className="cell bottom">25</div>
@@ -81,7 +103,9 @@ function App() {
         <div className="cell corner">GO TO JAIL</div>
         <div className="cell left">28</div>
         <div className="cell left">29</div>
-        <div className="cell left">30</div>
+        <div className="cell left">
+          <ComChestRL />
+        </div>
         <div className="cell left">31</div>
         <div className="cell left">32</div>
         <div className="cell left">33</div>

@@ -1,27 +1,26 @@
-.com-chest {
+.com-chestlr {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   flex-grow: 0;
-  font-size: 12px;
-  font-weight: bold;
   text-align: center;
-  height: 100%;
   width: 100%;
+  writing-mode: sideways-lr;
 }
 
-.com-chest-name {
+.com-chestlr-name {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-left: 10px;
 }
 
-.com-chest-name::after {
+.com-chestlr-name::after {
   display: block;
   content: "CHEST";
 }
 
-.com-chest-inst {
+.com-chestlr-inst {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,12 +28,17 @@
   line-height: 1.4;
 }
 
-.com-chest-inst::before {
+.com-chestlr-inst::before {
   display: block;
   content: "FOLLOW";
 }
 
-.com-chest-inst::after {
+.com-chestlr-inst::after {
   display: block;
   content: "ON TOP CARD";
+}
+
+.chest-lr {
+  transform: rotate(-90deg);
+  margin-bottom: 3px;
 }

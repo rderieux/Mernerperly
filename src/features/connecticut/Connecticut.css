@@ -18,8 +18,9 @@
 
 .connecticut-color {
   background-color: #f0f5fa;
-  height: 40px;
+  height: 36px;
   border-top: 4px solid black;
+  flex-shrink: 0;
 }
 
 .connecticut-name {
