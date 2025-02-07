@@ -1,12 +1,12 @@
 import "./VirginiaAve.css";
 
-export default function StCharlesPlace() {
+export default function virginiaPlace() {
   return (
     <>
-      <div className="stcharles">
-        <div className="stcharles-color"></div>
-        <div className="stcharles-info">
-          <p className="stcharles-name">VIRGINIA</p>
+      <div className="virginia">
+        <div className="virginia-color"></div>
+        <div className="virginia-info">
+          <p className="virginia-name">VIRGINIA</p>
           <p>$160</p>
         </div>
       </div>

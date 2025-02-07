@@ -9,6 +9,7 @@ body {
   align-items: center;
   font-family: "News Cycle", serif;
   font-style: normal;
+  font-weight: bold;
 }
 
 [class*="name"] {

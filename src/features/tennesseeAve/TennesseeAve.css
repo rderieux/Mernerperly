@@ -1,0 +1,27 @@
+.tennessee {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.tennessee-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: sideways-lr;
+  width: 100%;
+}
+
+.tennessee-color {
+  background-color: #f69302;
+  height: 100%;
+  width: 36px;
+  border-right: black solid 4px;
+  flex-shrink: 0;
+}
+
+.tennessee-name::after {
+  display: block;
+  content: "AVENUE";
+}

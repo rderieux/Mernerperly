@@ -15,6 +15,8 @@ import Jail from "./features/jail/Jail";
 import StCharlesPlace from "./features/stCharlesPlace/StCharlesPlace";
 import StatesAve from "./features/statesAve/StatesAve";
 import VirginiaAve from "./features/virginiaAve/VirginiaAve";
+import StJamesPlace from "./features/stJamesPlace/StJamesPlace";
+import TennesseeAve from "./features/tennesseeAve/TennesseeAve";
 
 function App() {
   return (
@@ -64,9 +66,13 @@ function App() {
           <VirginiaAve />
         </div>
         <div className="cell right">14</div>
-        <div className="cell right">15</div>
+        <div className="cell right">
+          <StJamesPlace />
+        </div>
         <div className="cell right">16</div>
-        <div className="cell right">17</div>
+        <div className="cell right">
+          <TennesseeAve />
+        </div>
         <div className="cell right">18</div>
         <div className="cell corner">FREE PARKING</div>
         <div className="cell bottom">19</div>
