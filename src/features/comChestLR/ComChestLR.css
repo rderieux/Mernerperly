@@ -1,0 +1,44 @@
+.com-chestlr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 0;
+  text-align: center;
+  width: 100%;
+  writing-mode: sideways-lr;
+}
+
+.com-chestlr-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.com-chestlr-name::after {
+  display: block;
+  content: "CHEST";
+}
+
+.com-chestlr-inst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4;
+}
+
+.com-chestlr-inst::before {
+  display: block;
+  content: "FOLLOW";
+}
+
+.com-chestlr-inst::after {
+  display: block;
+  content: "ON TOP CARD";
+}
+
+.chest {
+  transform: rotate(-90deg);
+  margin-bottom: 3px;
+}

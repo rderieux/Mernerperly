@@ -19,6 +19,7 @@ import StJamesPlace from "./features/stJamesPlace/StJamesPlace";
 import TennesseeAve from "./features/tennesseeAve/TennesseeAve";
 import NewYorkAve from "./features/newYorkAve/NewYorkAve";
 import KentuckyAve from "./features/kentuckyAve/KentuckyAve";
+import ComChestLR from "./features/comChestLR/ComChestLR";
 
 function App() {
   return (
@@ -71,7 +72,9 @@ function App() {
         <div className="cell right">
           <StJamesPlace />
         </div>
-        <div className="cell right">16</div>
+        <div className="cell right">
+          <ComChestLR />
+        </div>
         <div className="cell right">
           <TennesseeAve />
         </div>
