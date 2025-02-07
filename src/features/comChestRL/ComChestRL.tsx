@@ -6,7 +6,7 @@ export default function ComChestRL() {
     <>
       <div className="com-chestrl">
         <div className="com-chestrl-name">COMMUNITY</div>
-        <div className="chest">
+        <div className="chest-rl">
           <img src={chestImage} alt="Treasure Chest" />
         </div>
         <div className="com-chestrl-inst">INSTRUCTIONS</div>

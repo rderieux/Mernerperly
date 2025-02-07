@@ -38,7 +38,7 @@
   content: "ON TOP CARD";
 }
 
-.chest {
+.chest-rl {
   transform: rotate(90deg);
   margin-bottom: 3px;
 }
