@@ -1,0 +1,28 @@
+.pacific {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.pacific-color {
+  background-color: #00ba4f;
+  border-left: 4px solid black;
+  height: 100%;
+  width: 36px;
+  flex-shrink: 0;
+}
+
+.pacific-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: sideways-rl;
+  width: 100%;
+}
+
+.pacific-name::after {
+  display: block;
+  content: "AVENUE";
+}

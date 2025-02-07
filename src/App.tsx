@@ -10,7 +10,7 @@ import ReadingRail from "./features/readingRail/ReadingRail";
 import OrientalAve from "./features/oriental/OrientalAve";
 import Vermont from "./features/vermont/Vermont";
 import Connecticut from "./features/connecticut/Connecticut";
-import Chance from "./features/chance/Chance";
+import Chance from "./features/pinkChance/PinkChance";
 import Jail from "./features/jail/Jail";
 import StCharlesPlace from "./features/stCharlesPlace/StCharlesPlace";
 import StatesAve from "./features/statesAve/StatesAve";
@@ -26,6 +26,9 @@ import IllinoisAve from "./features/illinoisAve/IllinoisAve";
 import AtlanticAve from "./features/atlanticAve/AtlanticAve";
 import VentnorAve from "./features/ventnorAve/VentnorAve";
 import MarvinGardens from "./features/marvinGardens/MarvinGardens";
+import PacificAve from "./features/pacificAve/PacificAve";
+import NorthCarolinaAve from "./features/northCarolinaAve/NorthCarolinaAve";
+import PennsAve from "./features/pennsAve/PennsAve";
 
 function App() {
   return (
@@ -110,12 +113,18 @@ function App() {
           <MarvinGardens />
         </div>
         <div className="cell corner">GO TO JAIL</div>
-        <div className="cell left">28</div>
-        <div className="cell left">29</div>
+        <div className="cell left">
+          <PacificAve />
+        </div>
+        <div className="cell left">
+          <NorthCarolinaAve />
+        </div>
         <div className="cell left">
           <ComChestRL />
         </div>
-        <div className="cell left">31</div>
+        <div className="cell left">
+          <PennsAve />
+        </div>
         <div className="cell left">32</div>
         <div className="cell left">33</div>
         <div className="cell left">34</div>
