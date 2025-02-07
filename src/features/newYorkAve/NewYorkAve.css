@@ -1,0 +1,27 @@
+.newyork {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.newyork-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  writing-mode: sideways-lr;
+  width: 100%;
+}
+
+.newyork-color {
+  background-color: #f69302;
+  height: 100%;
+  width: 36px;
+  border-right: black solid 4px;
+  flex-shrink: 0;
+}
+
+.newyork-name::after {
+  display: block;
+  content: "AVENUE";
+}
