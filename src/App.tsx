@@ -20,6 +20,7 @@ import TennesseeAve from "./features/tennesseeAve/TennesseeAve";
 import NewYorkAve from "./features/newYorkAve/NewYorkAve";
 import KentuckyAve from "./features/kentuckyAve/KentuckyAve";
 import ComChestLR from "./features/comChestLR/ComChestLR";
+import ComChestRL from "./features/comChestRL/ComChestRL";
 
 function App() {
   return (
@@ -96,7 +97,9 @@ function App() {
         <div className="cell corner">GO TO JAIL</div>
         <div className="cell left">28</div>
         <div className="cell left">29</div>
-        <div className="cell left">30</div>
+        <div className="cell left">
+          <ComChestRL />
+        </div>
         <div className="cell left">31</div>
         <div className="cell left">32</div>
         <div className="cell left">33</div>
