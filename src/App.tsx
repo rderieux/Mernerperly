@@ -22,7 +22,9 @@ import KentuckyAve from "./features/kentuckyAve/KentuckyAve";
 import ComChestLR from "./features/comChestLR/ComChestLR";
 import ComChestRL from "./features/comChestRL/ComChestRL";
 import IndianaAve from "./features/indianaAve/IndianaAve";
-import IllinoisAve from "./assets/illinoisAve/IllinoisAve";
+import IllinoisAve from "./features/illinoisAve/IllinoisAve";
+import AtlanticAve from "./features/atlanticAve/AtlanticAve";
+import VentnorAve from "./features/ventnorAve/VentnorAve";
 
 function App() {
   return (
@@ -96,9 +98,13 @@ function App() {
           <IllinoisAve />
         </div>
         <div className="cell bottom">23</div>
-        <div className="cell bottom">24</div>
+        <div className="cell bottom">
+          <AtlanticAve />
+        </div>
         <div className="cell bottom">25</div>
-        <div className="cell bottom">26</div>
+        <div className="cell bottom">
+          <VentnorAve />
+        </div>
         <div className="cell bottom">27</div>
         <div className="cell corner">GO TO JAIL</div>
         <div className="cell left">28</div>
