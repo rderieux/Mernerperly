@@ -32,7 +32,7 @@ body {
   grid-template-rows: 2fr repeat(9, 1fr) 2fr;
   width: 120vmin;
   height: 120vmin;
-  background-color: #e2ecf2;
+  background-color: #cbe2d2;
   border-top: 4px solid black;
   border-left: 4px solid black;
 }
