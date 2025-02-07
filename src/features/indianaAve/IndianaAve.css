@@ -1,0 +1,28 @@
+.indiana {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.indiana-color {
+  background-color: #e9001e;
+  height: 36px;
+  width: 100%;
+  border-bottom: 4px solid black;
+  flex-shrink: 0;
+}
+
+.indiana-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.indiana-name::after {
+  display: block;
+  content: "AVENUE";
+}
