@@ -18,6 +18,7 @@ import VirginiaAve from "./features/virginiaAve/VirginiaAve";
 import StJamesPlace from "./features/stJamesPlace/StJamesPlace";
 import TennesseeAve from "./features/tennesseeAve/TennesseeAve";
 import NewYorkAve from "./features/newYorkAve/NewYorkAve";
+import KentuckyAve from "./features/kentuckyAve/KentuckyAve";
 
 function App() {
   return (
@@ -78,7 +79,9 @@ function App() {
           <NewYorkAve />
         </div>
         <div className="cell corner">FREE PARKING</div>
-        <div className="cell bottom">19</div>
+        <div className="cell bottom">
+          <KentuckyAve />
+        </div>
         <div className="cell bottom">20</div>
         <div className="cell bottom">21</div>
         <div className="cell bottom">22</div>

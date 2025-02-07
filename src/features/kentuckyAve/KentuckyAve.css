@@ -1,0 +1,28 @@
+.kentucky {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.kentucky-color {
+  background-color: #e9001e;
+  height: 36px;
+  width: 100%;
+  border-bottom: black solid 4px;
+  flex-shrink: 0;
+}
+
+.kentucky-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.kentucky-name::after {
+  display: block;
+  content: "AVENUE";
+}
