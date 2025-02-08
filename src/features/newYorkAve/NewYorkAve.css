@@ -16,7 +16,7 @@
 .newyork-color {
   background-color: #f69302;
   height: 100%;
-  width: 36px;
+  width: 30px;
   border-right: black solid 4px;
   flex-shrink: 0;
 }
