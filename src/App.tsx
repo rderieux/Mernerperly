@@ -29,6 +29,7 @@ import MarvinGardens from "./features/marvinGardens/MarvinGardens";
 import PacificAve from "./features/pacificAve/PacificAve";
 import NorthCarolinaAve from "./features/northCarolinaAve/NorthCarolinaAve";
 import PennsAve from "./features/pennsAve/PennsAve";
+import ParkPlace from "./features/parkPlace/ParkPlace";
 
 function App() {
   return (
@@ -127,7 +128,9 @@ function App() {
         </div>
         <div className="cell left">32</div>
         <div className="cell left">33</div>
-        <div className="cell left">34</div>
+        <div className="cell left">
+          <ParkPlace />
+        </div>
         <div className="cell left">35</div>
         <div className="cell left">36</div>
         <div className="cell center">CENTER</div>
