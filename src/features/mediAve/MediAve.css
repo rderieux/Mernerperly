@@ -41,7 +41,7 @@
 
 .medi-color {
   background-color: #4b0082; /* Dark purple color */
-  height: 36px;
+  height: 30px;
   border-top: 4px solid black;
   flex-shrink: 0;
 }
