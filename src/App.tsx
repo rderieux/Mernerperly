@@ -35,7 +35,8 @@ import ElectricCompany from "./features/electricCompany/ElectricCompany";
 import PennRail from "./features/pennRail/PennRail";
 import BAndORail from "./features/bAndORail/BAndORail";
 import ShortLine from "./features/shortLine/ShortLine";
-import BlueChance from "./features/blueChance/blueChance";
+import BlueChance from "./features/blueChance/BlueChance";
+import RedChance from "./features/redChance/RedChance";
 
 function App() {
   return (
@@ -143,7 +144,9 @@ function App() {
         <div className="cell left">
           <ShortLine />
         </div>
-        <div className="cell left">33</div>
+        <div className="cell left">
+          <RedChance />
+        </div>
         <div className="cell left">
           <ParkPlace />
         </div>

@@ -25,6 +25,6 @@
   top: 60%;
   left: 50%;
   margin: 0;
-  text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px,
-    #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+  text-shadow: #000 0px 0px 0.25px, #000 0px 0px 0.25px, #000 0px 0px 0.5px,
+    #000 0px 0px 0.25px, #000 0px 0px 0.25px, #000 0px 0px 0.25px;
 }
