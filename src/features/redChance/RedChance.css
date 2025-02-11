@@ -1,6 +1,6 @@
-.pink-chance {
+.red-chance {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   justify-content: space-between;
   font-size: 12px;
   font-weight: bold;
@@ -10,15 +10,19 @@
   overflow: hidden;
 }
 
-.pink-qMark {
+.red-chance-name {
+  writing-mode: sideways-rl;
+}
+
+.red-qMark {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   font-size: 12px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #e60e6f;
-  transform: translate(-50%, -50%) scale(10);
+  color: #db051d;
+  transform: translate(-300%, -125%) scale(10) rotate(90deg);
   transform-origin: center;
   line-height: 1;
   position: absolute;
