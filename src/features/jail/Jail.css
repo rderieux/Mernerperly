@@ -9,11 +9,13 @@
 }
 
 .jail-section {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .jail-section.in-jail {
@@ -39,7 +41,7 @@
 
 .jailPic {
   width: 30px;
-  height: 30px;
+  height: 29px;
   transform: scale(3);
 }
 
