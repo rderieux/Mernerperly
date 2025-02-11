@@ -35,6 +35,7 @@ import ElectricCompany from "./features/electricCompany/ElectricCompany";
 import PennRail from "./features/pennRail/PennRail";
 import BAndORail from "./features/bAndORail/BAndORail";
 import ShortLine from "./features/shortLine/ShortLine";
+import BlueChance from "./features/blueChance/blueChance";
 
 function App() {
   return (
@@ -104,7 +105,9 @@ function App() {
         <div className="cell bottom">
           <KentuckyAve />
         </div>
-        <div className="cell bottom">20</div>
+        <div className="cell bottom">
+          <BlueChance />
+        </div>
         <div className="cell bottom">
           <IndianaAve />
         </div>

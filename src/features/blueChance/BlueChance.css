@@ -1,4 +1,4 @@
-.pink-chance {
+.blue-chance {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,14 +10,14 @@
   overflow: hidden;
 }
 
-.pink-qMark {
+.blue-qMark {
   display: flex;
   justify-content: center;
   align-items: end;
   font-size: 12px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: #e60e6f;
+  color: #139ffe;
   transform: translate(-50%, -50%) scale(10);
   transform-origin: center;
   line-height: 1;

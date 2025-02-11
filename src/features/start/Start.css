@@ -29,6 +29,8 @@
   font-size: 6em;
   font-weight: bold;
   font-family: "Aldrich", serif;
+  text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px,
+    #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
 }
 
 .arrow {
