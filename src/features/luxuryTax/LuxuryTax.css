@@ -5,19 +5,28 @@
   align-items: center;
   writing-mode: sideways-rl;
   width: 100%;
+  flex-grow: 0;
+}
+
+.luxury-tax-name {
+  font-size: 17px;
+  flex-grow: 0;
 }
 
 .luxury-tax-pay {
   font-size: 9px;
   margin-bottom: 5px;
+  flex-grow: 0;
 }
 
 .luxury-tax-cost {
   display: flex;
   align-items: center;
+  flex-grow: 0;
 }
 
 .luxury-tax-name::after {
   display: block;
   content: "TAX";
+  flex-grow: 0;
 }
