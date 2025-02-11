@@ -39,6 +39,7 @@ import BlueChance from "./features/blueChance/BlueChance";
 import RedChance from "./features/redChance/RedChance";
 import WaterWorks from "./features/waterWorks/WaterWorks";
 import LuxuryTax from "./features/luxuryTax/LuxuryTax";
+import FreeParking from "./features/freeParking/FreeParking";
 
 function App() {
   return (
@@ -104,7 +105,9 @@ function App() {
         <div className="cell right">
           <NewYorkAve />
         </div>
-        <div className="cell corner">FREE PARKING</div>
+        <div className="cell corner">
+          <FreeParking />
+        </div>
         <div className="cell bottom">
           <KentuckyAve />
         </div>
