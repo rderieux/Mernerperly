@@ -1,0 +1,23 @@
+.luxury-tax {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  writing-mode: sideways-rl;
+  width: 100%;
+}
+
+.luxury-tax-pay {
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+
+.luxury-tax-cost {
+  display: flex;
+  align-items: center;
+}
+
+.luxury-tax-name::after {
+  display: block;
+  content: "TAX";
+}

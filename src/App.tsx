@@ -38,6 +38,7 @@ import ShortLine from "./features/shortLine/ShortLine";
 import BlueChance from "./features/blueChance/BlueChance";
 import RedChance from "./features/redChance/RedChance";
 import WaterWorks from "./features/waterWorks/WaterWorks";
+import LuxuryTax from "./features/luxuryTax/LuxuryTax";
 
 function App() {
   return (
@@ -153,7 +154,9 @@ function App() {
         <div className="cell left">
           <ParkPlace />
         </div>
-        <div className="cell left">35</div>
+        <div className="cell left">
+          <LuxuryTax />
+        </div>
         <div className="cell left">
           <Boardwalk />
         </div>
