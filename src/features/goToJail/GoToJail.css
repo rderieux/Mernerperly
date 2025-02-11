@@ -1,0 +1,28 @@
+.go-to-jail {
+  height: 100%;
+  width: 100%;
+}
+
+.go-to-jail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg);
+}
+
+.go-to-jail-name {
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+}
+
+.go-to-jail-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  height: auto;
+  width: 70%;
+}

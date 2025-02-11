@@ -40,6 +40,7 @@ import RedChance from "./features/redChance/RedChance";
 import WaterWorks from "./features/waterWorks/WaterWorks";
 import LuxuryTax from "./features/luxuryTax/LuxuryTax";
 import FreeParking from "./features/freeParking/FreeParking";
+import GoToJail from "./features/goToJail/GoToJail";
 
 function App() {
   return (
@@ -135,7 +136,9 @@ function App() {
         <div className="cell bottom">
           <MarvinGardens />
         </div>
-        <div className="cell corner">GO TO JAIL</div>
+        <div className="cell corner">
+          <GoToJail />
+        </div>
         <div className="cell left">
           <PacificAve />
         </div>

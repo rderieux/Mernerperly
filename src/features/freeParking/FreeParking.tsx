@@ -6,9 +6,9 @@ export default function FreeParking() {
     <>
       <div className="parking">
         <div className="parking-info">
-          <p className="parking-name-1">FREE</p>
+          <p className="parking-name">FREE</p>
           <img className="parking-car-img" src={car} alt="Car" />
-          <p className="parking-name-2">PARKING</p>
+          <p className="parking-name">PARKING</p>
         </div>
       </div>
     </>

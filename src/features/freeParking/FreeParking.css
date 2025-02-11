@@ -25,14 +25,8 @@
   box-sizing: border-box;
 }
 
-.parking-name-1 {
-  font-size: 16px;
-  position: relative;
-  z-index: 2;
-}
-
-.parking-name-2 {
-  font-size: 16px;
+.parking-name {
+  font-size: 18px;
   position: relative;
   z-index: 2;
 }
