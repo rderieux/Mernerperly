@@ -37,6 +37,7 @@ import BAndORail from "./features/bAndORail/BAndORail";
 import ShortLine from "./features/shortLine/ShortLine";
 import BlueChance from "./features/blueChance/BlueChance";
 import RedChance from "./features/redChance/RedChance";
+import WaterWorks from "./features/waterWorks/WaterWorks";
 
 function App() {
   return (
@@ -121,7 +122,9 @@ function App() {
         <div className="cell bottom">
           <AtlanticAve />
         </div>
-        <div className="cell bottom">25</div>
+        <div className="cell bottom">
+          <WaterWorks />
+        </div>
         <div className="cell bottom">
           <VentnorAve />
         </div>
