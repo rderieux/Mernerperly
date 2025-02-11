@@ -31,6 +31,10 @@ import NorthCarolinaAve from "./features/northCarolinaAve/NorthCarolinaAve";
 import PennsAve from "./features/pennsAve/PennsAve";
 import ParkPlace from "./features/parkPlace/ParkPlace";
 import Boardwalk from "./features/boardwalk/Boardwalk";
+import ElectricCompany from "./features/electricCompany/ElectricCompany";
+import PennRail from "./features/pennRail/PennRail";
+import BAndORail from "./features/bAndORail/BAndORail";
+import ShortLine from "./features/shortLine/ShortLine";
 
 function App() {
   return (
@@ -72,14 +76,18 @@ function App() {
         <div className="cell right">
           <StCharlesPlace />
         </div>
-        <div className="cell right">11</div>
+        <div className="cell right">
+          <ElectricCompany />
+        </div>
         <div className="cell right">
           <StatesAve />
         </div>
         <div className="cell right">
           <VirginiaAve />
         </div>
-        <div className="cell right">14</div>
+        <div className="cell right">
+          <PennRail />
+        </div>
         <div className="cell right">
           <StJamesPlace />
         </div>
@@ -103,7 +111,9 @@ function App() {
         <div className="cell bottom">
           <IllinoisAve />
         </div>
-        <div className="cell bottom">23</div>
+        <div className="cell bottom">
+          <BAndORail />
+        </div>
         <div className="cell bottom">
           <AtlanticAve />
         </div>
@@ -127,7 +137,9 @@ function App() {
         <div className="cell left">
           <PennsAve />
         </div>
-        <div className="cell left">32</div>
+        <div className="cell left">
+          <ShortLine />
+        </div>
         <div className="cell left">33</div>
         <div className="cell left">
           <ParkPlace />

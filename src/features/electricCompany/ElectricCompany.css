@@ -1,0 +1,17 @@
+.electric {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.electric-info {
+  display: flex;
+  flex-direction: column;
+  writing-mode: sideways-lr;
+  justify-content: space-between;
+}
+
+.electric-name::after {
+  display: block;
+  content: "COMPANY";
+}

@@ -1,0 +1,25 @@
+.penn-rail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  writing-mode: sideways-lr;
+  width: 100%;
+}
+
+.penn-rail-image {
+  height: 35px;
+  width: 50px;
+  transform: rotate(-90deg);
+}
+
+.penn-rail-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.penn-rail-name::after {
+  display: block;
+  content: "RAILROAD";
+}
