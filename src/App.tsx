@@ -32,6 +32,7 @@ import PennsAve from "./features/pennsAve/PennsAve";
 import ParkPlace from "./features/parkPlace/ParkPlace";
 import Boardwalk from "./features/boardwalk/Boardwalk";
 import ElectricCompany from "./features/electricCompany/ElectricCompany";
+import PennRail from "./features/pennRail/PennRail";
 
 function App() {
   return (
@@ -82,7 +83,9 @@ function App() {
         <div className="cell right">
           <VirginiaAve />
         </div>
-        <div className="cell right">14</div>
+        <div className="cell right">
+          <PennRail />
+        </div>
         <div className="cell right">
           <StJamesPlace />
         </div>
