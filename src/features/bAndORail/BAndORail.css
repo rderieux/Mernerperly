@@ -1,0 +1,24 @@
+.bo-rail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 12px;
+  height: 100%;
+  font-weight: bold;
+}
+
+.bo-rail-image {
+  height: 35px;
+  width: 50px;
+}
+
+.bo-rail-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bo-rail-name::after {
+  display: block;
+  content: "RAILROAD";
+}
