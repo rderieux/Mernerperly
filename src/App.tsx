@@ -34,6 +34,7 @@ import Boardwalk from "./features/boardwalk/Boardwalk";
 import ElectricCompany from "./features/electricCompany/ElectricCompany";
 import PennRail from "./features/pennRail/PennRail";
 import BAndORail from "./features/bAndORail/BAndORail";
+import ShortLine from "./features/shortLine/ShortLine";
 
 function App() {
   return (
@@ -136,7 +137,9 @@ function App() {
         <div className="cell left">
           <PennsAve />
         </div>
-        <div className="cell left">32</div>
+        <div className="cell left">
+          <ShortLine />
+        </div>
         <div className="cell left">33</div>
         <div className="cell left">
           <ParkPlace />
