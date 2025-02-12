@@ -1,11 +1,8 @@
-// filepath: /G:/Projects/Mernerperly/src/App.tsx
-import React from "react";
 import Start from "./features/start/Start";
 import MediAve from "./features/mediAve/MediAve";
 import ComChest from "./features/comChest/ComChest";
 import Baltic from "./features/baltic/Baltic";
 import IncomeTax from "./features/incomeTax/IncomeTax";
-import "./App.css";
 import ReadingRail from "./features/readingRail/ReadingRail";
 import OrientalAve from "./features/oriental/OrientalAve";
 import Vermont from "./features/vermont/Vermont";
@@ -41,6 +38,8 @@ import WaterWorks from "./features/waterWorks/WaterWorks";
 import LuxuryTax from "./features/luxuryTax/LuxuryTax";
 import FreeParking from "./features/freeParking/FreeParking";
 import GoToJail from "./features/goToJail/GoToJail";
+import Center from "./features/center/Center";
+import "./App.css";
 
 function App() {
   return (
@@ -166,7 +165,9 @@ function App() {
         <div className="cell left">
           <Boardwalk />
         </div>
-        <div className="cell center">CENTER</div>
+        <div className="cell center">
+          <Center />
+        </div>
       </div>
     </div>
   );

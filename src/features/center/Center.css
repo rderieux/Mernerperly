@@ -1,0 +1,84 @@
+.board-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transform: rotate(-45deg);
+
+  height: 100%;
+  width: 100%;
+}
+
+.game-title {
+  font-size: 9em;
+  background-color: #db051d;
+  color: #cbe2d2;
+  border: 4px solid #cbe2d2;
+  border-radius: 20px;
+  outline: 1rem;
+  outline-offset: 1rem;
+  margin: 0;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  line-height: 0.9;
+}
+
+.game-title-section {
+  padding: 4px;
+  background-color: #db051d;
+  border-radius: 20px;
+}
+
+.card {
+  position: relative;
+  padding: 20px;
+  color: black;
+  font-size: 1em;
+  border: 2px solid black;
+  width: 120px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card::before,
+.card::after,
+.card::left,
+.card::right {
+  content: "?";
+  position: absolute;
+  display: block;
+  pointer-events: none;
+}
+
+.card::before {
+  top: -20px;
+  left: 0;
+  width: 50px;
+  text-align: center;
+}
+
+.card::after {
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.card::left {
+  top: 0;
+  left: -20px;
+  height: 100%;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.card::right {
+  top: 0;
+  right: -20px;
+  height: 100%;
+  writing-mode: vertical-rl; /* Rotate text for vertical alignment */
+  text-align: center;
+}
