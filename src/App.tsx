@@ -76,7 +76,7 @@ function App() {
         <div className="cell top">
           <Connecticut />
         </div>
-        <div className="cell corner">
+        <div className="cell corner right">
           <Jail />
         </div>
         <div className="cell right">
@@ -106,7 +106,7 @@ function App() {
         <div className="cell right">
           <NewYorkAve />
         </div>
-        <div className="cell corner">
+        <div className="cell corner right bottom">
           <FreeParking />
         </div>
         <div className="cell bottom">
@@ -136,7 +136,7 @@ function App() {
         <div className="cell bottom">
           <MarvinGardens />
         </div>
-        <div className="cell corner">
+        <div className="cell corner bottom">
           <GoToJail />
         </div>
         <div className="cell left">

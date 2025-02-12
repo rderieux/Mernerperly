@@ -1,6 +1,6 @@
 html,
 body {
-  margin-top: 5px;
+  margin-top: 14px;
   padding: 0;
   height: 120vmin;
   width: 100%;
@@ -34,8 +34,7 @@ body {
   width: 120vmin;
   height: 120vmin;
   background-color: #cbe2d2;
-  border-top: 4px solid black;
-  border-left: 4px solid black;
+  border: 14px solid #559ee2;
 }
 
 .cell {
@@ -46,6 +45,19 @@ body {
   text-align: center;
   border-bottom: 4px solid black;
   border-right: 4px solid black;
+}
+
+.cell.right {
+  border-right: none;
+}
+
+.cell.right.bottom {
+  border-right: none;
+  border-bottom: none;
+}
+
+.cell.bottom {
+  border-bottom: none;
 }
 
 .corner {
